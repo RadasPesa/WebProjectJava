@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #1b2838, #391f2e);
+}
+input {
+    width: 100%;
+    margin-bottom: 5px;
+    background: rgba(24, 25, 26, 0.4);
+    border: 1px solid #3d3c3b;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 2px;
+}
+.registration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -160px;
+    width: 320px;
+    height: 500px;
+}
+.registration h2 {
+    color: #ffffff;
+    text-align: center;
+}
+.registration h3 {
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+.registration h4 {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.registration p {
+    color: #ff3232;
+    font-size: 13px;
+    margin-top: -5px;
+}
+.registerBtn {
+    float: right;
+    width: 30%;
+    background: #5f8cbd;
+    border: 1px solid blue;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 7px;
+    margin-top: -12px;
+}
+.registerBtn:active, .registerBtn:hover {
+    background-color: #4569ba;
+    color: #ffffff;
+    cursor: pointer;
+}

@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(to right, #1b2838, #391f2e);
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    background: rgba(30,30,30,.5);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    padding: 7px 0;
+    width: 20%;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 18px;
+
+    position: relative;
+}
+
+nav a {
+    color: #bababa;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #cdcdcd;
+
+    position: absolute;
+    top: 0;
+    width: 0;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.leftPanel {
+    display: inline-table;
+    width: 20%;
+    margin-top: 6px;
+    outline: 2px solid grey;
+    color: white;
+    padding: 7px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.leftPanel b {
+    font-size: 18px;
+}
+.leftPanel a {
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+.middlePanel {
+    display: inline-table;
+    width: 50%;
+    outline: 1px solid rgba(116,116,116,0.4);
+    background-color: rgba(5,5,5,0.2);
+    color: white;
+    padding: 9px;
+    margin-left: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.middlePanel a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.middlePanel p {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.middlePanel input {
+    width: 17%;
+    background: rgba(81, 72, 103, 0.61);
+    border: 1px solid rgba(70,63,91,0.8);
+    color: #ffffff;
+    padding: 2px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+.changeBtn {
+    width: 30%;
+    background: #5f8cbd;
+    border: 1px solid blue;
+    margin-top: 7px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 7px;
+}
+.changeBtn:active, .changeBtn:hover {
+    background-color: #4569ba;
+    color: #ffffff;
+    cursor: pointer;
+}
+.rightPanel {
+    float: right;
+    width: 23%;
+    outline: 1px solid grey;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.rightPanel table {
+    display: table;
+    border-collapse: collapse;
+    color: white;
+    font-size: 13px;
+}
+.rightPanel tr {
+    border: none;
+}
+.rightPanel td {
+    padding: 3px;
+    border-right: solid 1px rgba(200, 233, 246, 0.8);
+    border-bottom: solid 1px rgba(200, 233, 246, 0.8);
+}
+.rightPanel td:first-child {
+    text-align: right;
+}
+.rightPanel td:last-child {
+    border-right: none;
+}
+.rightPanel tr:last-child td {
+    border-bottom: none;
+}
+.rightPanel span {
+    color: rgba(146, 226, 49, 1);
+    font-weight: bold;
+}
+.rightPanel textarea {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    background: rgba(24, 25, 26, 0.3);
+    border: 1px solid grey;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+}
+.submitBtn {
+    width: 100%;
+    background: #5c7e10;
+    border: 1px solid green;
+    font-weight: bold;
+    color: #cbff71;
+    padding: 5px;
+    border-radius: 7px;
+}
+.submitBtn:hover, .submitBtn:active {
+    background-color: #97b607;
+    color: #ffffff;
+    cursor: pointer;
+}
+.deleteIcon {
+    width: 7%;
+    float: right;
+}
+
+
+
+
+

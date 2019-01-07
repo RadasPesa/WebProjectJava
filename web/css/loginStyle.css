@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #1b2838, #391f2e);
+}
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    background: rgba(24, 25, 26, 0.4);
+    border: 1px solid #3d3c3b;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 7px;
+}
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -175px 0 0 -160px;
+    width: 320px;
+    height: 350px;
+}
+.login h1 {
+    color: #ffffff;
+    text-align: center;
+}
+.login p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+.loginBtn {
+    width: 100%;
+    background: #5c7e10;
+    border: 1px solid green;
+    font-size: 15px;
+    font-weight: bold;
+    color: #cbff71;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: -5px;
+}
+.loginBtn:hover, .loginBtn:active {
+    background-color: #97b607;
+    color: #ffffff;
+    cursor: pointer;
+}
+.signBtn {
+    width: 23%;
+    background: #5c7e10;
+    border: 1px solid green;
+    font-weight: bold;
+    color: #cbff71;
+    border-radius: 7px;
+}
+.signBtn:hover, .signBtn:active {
+    background-color: #97b607;
+    color: #ffffff;
+    cursor: pointer;
+}
