@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<catalog>
+    <book>
+        <title>To Kill a Mockingbird</title>
+    </book>
+    <book>
+        <title>1984</title>
+    </book>
+    <book>
+        <title>The Lord of the Rings</title>
+    </book>
+    <book>
+        <title>The Catcher in the Rye</title>
+    </book>
+    <book>
+        <title>The Great Gatsby</title>
+    </book>
+</catalog>
